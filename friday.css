@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "open sans",serif;
+    background: #E3E7EA;
+}
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    place-items: center;
+    margin-top: 50px;
+}
+.form {
+    height: 400px;
+    width: 550px;
+    background-color: whitesmoke;
+
+}
+
+.Partencontiner { 
+    height: 95px;
+    width: 300px;
+    display: grid;
+    column-gap: 30px;
+    grid-template-columns: 300px 350px;
+    grid-template-rows: repeat(2,70px);
+    justify-content: center;
+    align-content: center;
+
+}
+.child{
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+}
+.child2{
+    grid-template-columns: 2;
+    grid-row-start: 1;
+    grid-row-end:7 ;
+
+}
+#heading{
+    height: 40px;
+    width: 280px;
+    color: red;
+    font-size: 14px;
+    padding: 10px;
+}
+.child2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+.icon{
+    height: 55px;
+    width: 270px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 8px;
+    margin-bottom: 60px;
+}
+.iconGoogle{
+    height: 32px;
+    width: 45px;
+    border-radius: 50%;
+    padding:3px;
+    border: 10px;
+}
+.facebook{
+    height: 32px;
+    width: 45px;
+    border-radius: 50%
+    padding:3px;
+}
+.twitter{
+    height: 32px;
+    width: 45px;
+    border-radius: 50%
+    padding: 3px;
+}
+.instagram{
+    height: 32px;
+    width: 45px;
+    border-radius: 50%
+    padding: 3px;
+}
+.home{
+    height: 32px;
+    width: 45px;
+    border-radius: 50%
+    padding: 3px;
+}
+.heading4{
+    display: flex;
+    justify-content: center;
+
+}
+.childfrom {
+    display: grid;
+    grid-row-gap:8px;
+    margin-right: 40px;
+
+
+}
+#email{
+    height: 37px;
+    width: 340px;
+    border-radius: 3px;
+
+}
+#password{
+    height: 37px;
+    width: 340px;
+    border-radius: 3px;
+    
+}
+.childcontainer{
+ height: 40px;
+ width: 450px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: start ;
+
+}
+
+#check{
+height: 33px;
+width: 20px;
+}
+
+.childterms{
+    font-size: 14px;
+    display: flex;
+    gap:12px;
+    align-items: center;
+}
+p{
+    margin-right: 95px;
+
+}
+.child span{
+    color: red;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin-left: -40px;
+
+}
+.btn1{
+    background-color: red;
+    color: white;
+    height: 40px;
+    width: 140px;
+    font-size: 18px;
+    border-radius: 6px;
+    margin-right: 20px;
+}
+.btn2{
+    color: black;
+    height: 40px;
+    width: 140px;
+    font-size: 18px;
+    border-radius: 6px;
+}

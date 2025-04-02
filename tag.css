@@ -1,0 +1,28 @@
+body{
+    height: 100vh;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+
+}
+label{
+    display: block;
+    margin: 10px 0;
+}
+button{
+    padding: 7px 20px;
+    margin: 10px 0;
+    width: 100%;
+    font-weight: 500;
+    background-color: rgb(60, 210, 210);
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+}
+form {
+    padding: 10PX;
+    border-radius: 20px;
+    background-color: rgb(234, 220, 220)
+
+    }

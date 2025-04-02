@@ -1,0 +1,22 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border: 1px solid black;
+    height: 100vh;
+    gap: 10px
+}
+.box{
+background-color: red;
+}
+.green{
+    width: 100%;
+    background-color: green;
+    /* grid-column-start: 1; */
+    /* grid-column-end: 4; */
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+}
+.yellow{
+    background-color: yellow;
+}

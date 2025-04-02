@@ -4,7 +4,7 @@ let hobby="Programming";
 var age=25;
 const name ="Radha";
 hobby= "playing Games"
-//  alert ( "I am lesrning javascript");
+//  alert ( "I am learning javascript");
 let user_name= prompt ( "what is your name ?")
 console.log (user_name);
  let isActive = confirm ( "Are u a programming?")
@@ -20,4 +20,6 @@ console.log (user_name);
  let a= 10;
  let b=5;
  console.log ( "Addition" ,a+b);
+
+ 
  

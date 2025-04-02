@@ -159,27 +159,27 @@
 // const moviesfunu = (movies)=>console.log(movies);
 // moviesfunu([...Amovies],"RADHE","PATHAN","FIGHTER");
   
-const  femalemarvel = [
-    {
-        name:"Black Widow (Natasha Romanoff)",
-        age:20-30,height:5.6,
-        Power:{type:" Reality Warping / Chaos Magic ",range:"100m "}
-     },
-    {
-        name:"Scarlet Witch (Wanda Maximoff)",
-        age:20-30,height:5.8,
-        Power:{type:" Telekinesis ",range:"5m "} 
-    },
-    {name:"Captain Marvel (Carol Danvers)",age:20-30,height:5.9,Power:{type:" Telekinesis ",range:"200m "} },
-    {name:"Storm (Ororo Munroe)",age:30-35,height:5.5,Power:{type:" Atmospheric Control ",range:"10m "} },
-    {name:"Jean Grey" ,age:30-40,height:5.10,Power :{type:" Reality Warping / Chaos Magic ",range:" 200m"} },
-    {name:"Black Panther (Shuri)" ,age:20-30,height:5.6,Power:{type:" Atmospheric Control ",range:"100m "} },
-    {name:"Gamora ", age:5.5,height:6.1,Power:{type:"  Reality Warping / Chaos Magic",range:"5mm "} },
-    {name:"Invisible Woman (Sue Storm)" ,age:30-40,height:6.3,Power:{type:" Reality Warping / Chaos Magic ",range:"200m "} },
-    {name:"She-Hulk (Jennifer Walters)", age:25-35,height:5.10, Power:{type:" Atmospheric Control ",range:"5m "} },
-    {name:"Mantis ",age:5.3,height:5.9,Power:{type:" Atmospheric Control ",range:" 100m"}   },
-    
-]
+// const  femalemarvel = [
+    // {
+        // name:"Black Widow (Natasha Romanoff)",
+        // age:20-30,height:5.6,
+        // Power:{type:" Reality Warping / Chaos Magic ",range:"100m "}
+    //  },
+    // {
+        // name:"Scarlet Witch (Wanda Maximoff)",
+        // age:20-30,height:5.8,
+        // Power:{type:" Telekinesis ",range:"5m "} 
+    // },
+    // {name:"Captain Marvel (Carol Danvers)",age:20-30,height:5.9,Power:{type:" Telekinesis ",range:"200m "} },
+    // {name:"Storm (Ororo Munroe)",age:30-35,height:5.5,Power:{type:" Atmospheric Control ",range:"10m "} },
+    // {name:"Jean Grey" ,age:30-40,height:5.10,Power :{type:" Reality Warping / Chaos Magic ",range:" 200m"} },
+    // {name:"Black Panther (Shuri)" ,age:20-30,height:5.6,Power:{type:" Atmospheric Control ",range:"100m "} },
+    // {name:"Gamora ", age:5.5,height:6.1,Power:{type:"  Reality Warping / Chaos Magic",range:"5mm "} },
+    // {name:"Invisible Woman (Sue Storm)" ,age:30-40,height:6.3,Power:{type:" Reality Warping / Chaos Magic ",range:"200m "} },
+    // {name:"She-Hulk (Jennifer Walters)", age:25-35,height:5.10, Power:{type:" Atmospheric Control ",range:"5m "} },
+    // {name:"Mantis ",age:5.3,height:5.9,Power:{type:" Atmospheric Control ",range:" 100m"}   },
+    // 
+// ]
 // 1. console.log (
     // femalemarvel.map(function heroni(heroni,index){
         // console.log(heroni,index,"type");
@@ -213,20 +213,44 @@ const  femalemarvel = [
 // return i.Power.range>"5m" && i.Power.range>"200m"
 // });
 // console.log(range);
+
+
 //add lowest rating field i.e 60%of actual rating.
-const newmarvelheroni=femalemarvel.map((item)=>{
-    const newArr = {...item,lowestRating:item.rating*0.6};
-    return newArr;
-});
-console.log (newmarvelheroni,"newmarvelheroni");
+// const newmarvelheroni=femalemarvel.map((item)=>{
+    // const newArr = {...item,lowestRating:item.rating*0.6};
+    // return newArr;
+// });
+// console.log (newmarvelheroni,"newmarvelheroni");
 
 //API product of Store.
-const baseUrl="https://fakestoreapi.com/products";
-const data =fetch(`${baseUrl}product`)
-. then((res )=> console.log(res,"res"));
-const apiData= res.json();
-
-    console.log(json)
-
-
-    
+// const baseUrl="https://67aef3849e85da2f020eec37.mockapi.io";
+// const data =fetch(`${baseUrl}users`)
+// .then((res )=>res.json())
+// .then ((data)=>{
+    // console.log(data,"datas");
+    // const clothingcontainer = document.querySelector( ".clothing");
+    // data.map((item)=>{
+        // clothingcontainer.innerHTML += `
+        // <div>
+            // <div>
+                // <img src=${item?.image} alt ="product" width ="200px" />
+            // </div>
+            // <div>
+            // <h2>${ item?.title} <h2/>
+            // <p>${ item?.description } </P>
+            // <P>${item?.price} </P>
+            // </div<
+        // </div> `
+    // });
+// })
+// .catch ((err) =>console.log(err)
+// );
+let from = document.querySelector(from);
+from.addEventListener("Submit",(e)=>{
+    e.preventDefault();
+let height= Number(document.getElementById("height").value);
+let weight=Number(document.getElementById("weight").value);
+let bmi = weight/(height*height);
+let message=document.getElementById
+console.log("bmi",bmi);
+})

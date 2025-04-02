@@ -1,0 +1,20 @@
+.container{
+    height: 100px;
+    width: 300px;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+.ball{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    transform: translate(0);
+    background-color: black;
+    transition: ease-in-out 0.4s;
+
+}
+.active{
+    transform: translate(200px);
+}

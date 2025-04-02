@@ -1,0 +1,12 @@
+.containerbox{
+    position: relative;
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box{
+
+}
